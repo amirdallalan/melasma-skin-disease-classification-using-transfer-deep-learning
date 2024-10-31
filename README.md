@@ -35,7 +35,35 @@ This repository contains code for diagnosing Melasma skin disease using various 
 - **test()**: Evaluates the model on the test set for each epoch.
 
 ## Results
-Each model's training and testing performance metrics (loss and accuracy) are saved in the `history/` directory in JSON format.
+Each model's training and testing performance metrics (loss and accuracy) are saved in the `history/` directory in JSON format. The following charts illustrate the performance of each model across epochs for both the CIFAR-10 and Melasma datasets:
+
+### CIFAR-10 Dataset
+
+#### VGGNet16
+- ** Accuracy + Loss**  
+  ![VGGNet16 CIFAR-10](https://github.com/amirdallalan/melasma-skin-disease-classification-using-transfer-deep-learning/blob/master/result/vggnet-cifar10.png?raw=true)
+
+#### ResNet50
+- ** Accuracy + Loss**  
+  ![ResNet50 CIFAR-10](https://github.com/amirdallalan/melasma-skin-disease-classification-using-transfer-deep-learning/blob/master/result/resnet-cifar10.png?raw=true)
+
+#### AlexNet
+- ** Accuracy + Loss**  
+  ![AlexNet CIFAR-10](https://github.com/amirdallalan/melasma-skin-disease-classification-using-transfer-deep-learning/blob/master/result/alexnet-cifar10.png?raw=true)
+### Melasma Dataset
+
+#### VGGNet16
+- ** Accuracy + Loss**  
+  ![VGGNet16 Melasma](https://github.com/amirdallalan/melasma-skin-disease-classification-using-transfer-deep-learning/blob/master/result/vggnet-melasema.png?raw=true)
+
+#### ResNet50
+- ** Accuracy + Loss**  
+  ![ResNet50 Melasma](https://github.com/amirdallalan/melasma-skin-disease-classification-using-transfer-deep-learning/blob/master/result/resnet-melasema.png?raw=true)
+
+#### AlexNet
+- ** Accuracy + Loss**  
+  ![AlexNet Melasma](https://github.com/amirdallalan/melasma-skin-disease-classification-using-transfer-deep-learning/blob/master/result/alexnet-melasema.png?raw=true)
+
 
 ## Requirements
 - Python 3
